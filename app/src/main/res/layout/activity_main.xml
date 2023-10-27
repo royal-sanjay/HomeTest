@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+
+        android:layout_height="200dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/card"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/send"
+                android:layout_gravity="center"
+                android:layout_marginLeft="150dp"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="OTP Verifaction "
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#00BCD4"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="We will send you an One Time Pasword  "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="one this mobile number "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:hint="Number"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <com.chaos.view.PinView-->
+    <!--        android:id="@+id/pin"-->
+    <!--        style="@style/PinWidget.PinView"-->
+
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/sendotp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginEnd="20dp"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        android:cursorVisible="true"-->
+    <!--        android:gravity="center"-->
+    <!--        android:inputType="number"-->
+    <!--        android:itemBackground="#03A9F4"-->
+    <!--        app:hideLineWhenFilled="false"-->
+    <!--        app:itemCount="6"-->
+    <!--        app:itemHeight="50dp"-->
+    <!--        app:itemRadius="20dp"-->
+    <!--        app:itemWidth="60dp" />-->
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="20dp"-->
+    <!--        android:background="@color/black"-->
+
+    <!--        app:cardCornerRadius="10dp">-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sendotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="#00BCD4"
+        android:text="sent otp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:id="@+id/VERFY"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="25dp"-->
+    <!--        android:backgroundTint="#00BCD4"-->
+
+    <!--        android:text="VERFY OTP "-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="20dp">-->
+
+    <!--    </androidx.appcompat.widget.AppCompatButton>-->
+</LinearLayout>
+
+

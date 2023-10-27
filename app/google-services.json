@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "938274337442",
+    "project_id": "edugaon-90a41",
+    "storage_bucket": "edugaon-90a41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938274337442:android:32e7eb495c02eb481e5dfb",
+        "android_client_info": {
+          "package_name": "com.example.emailauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQyTw8oaOTMpp82YBMwjqLXfNHzInKro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938274337442:android:3081618bd313d33c1e5dfb",
+        "android_client_info": {
+          "package_name": "com.example.emailautho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQyTw8oaOTMpp82YBMwjqLXfNHzInKro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938274337442:android:8401dd0bcecb71bd1e5dfb",
+        "android_client_info": {
+          "package_name": "com.example.hometest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQyTw8oaOTMpp82YBMwjqLXfNHzInKro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
